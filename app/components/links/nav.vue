@@ -11,7 +11,7 @@
         <div class="lg:hidden flex items-center">
             <button class="hover:fill-[#004b23]" :class="isScrolled ? 'text-[#000]' : 'text-[#f8f8f8]'"
                 @click="isMenuOpen = true" aria-label="Open menu">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" height="25px" width="25px"
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" height="40px" width="40px"
                     fill="currentcolor">
                     <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
                 </svg>
