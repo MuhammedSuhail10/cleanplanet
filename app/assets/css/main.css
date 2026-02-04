@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: elms;
+    src: url('../fonts/Elms.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: sansita;
+    src: url('../fonts/Sansita.ttf') format('truetype');
+    font-display: swap;
+}
