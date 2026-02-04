@@ -1,7 +1,7 @@
 <template>
     <div class="lg:h-[90svh] h-[60svh] xl:px-[12em] lg:px-[5em] px-[1em] ">
         <div class="text-center lg:py-[1em] py-[3em]">
-            <h1 class="font-[sansita] lg:text-[40pt] text-[25pt]">Rooted in <span class="text-[#004b23]">Experience</span>. <br />
+            <h1 class="font-[sansita] lg:text-[40pt] text-[30pt]">Rooted in <span class="text-[#004b23]">Experience</span>. <br />
                 Driven by Sustainability.</h1>
             <p class="lg:text-[18pt] text-[15pt]">Combining fifteen years of expertise with advanced recycling technology to
                 deliver high-quality plastic
