@@ -7,7 +7,7 @@
                     transition toward a circular economy by
                     transforming plastic waste into high-value industrial resources through innovation, integrity, and
                     sustainable excellence.</p>
-                <img src="~/assets/images/vision.png" alt="" width="200" height="200" class="h-[10em] hidden md:block flex-shrink-0">
+                <img src="~/assets/images/vision.png" alt="" width="200" height="200" class="h-[12em] hidden md:block flex-shrink-0">
             </div>
             <div class="bg-[#C7C4B7]/50 md:w-[50%] rounded-[2em] flex justify-between p-[2em] gap-[1em]">
                 <p class="lg:text-[18pt] text-[15pt]">To deliver high-quality, sustainable plastic solutions by combining 15 years of industry expertise

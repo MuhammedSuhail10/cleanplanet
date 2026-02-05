@@ -4,5 +4,7 @@
         <HomeHero />
         <LazyHomeAbout />
         <LazyHomeVision />
+        <LazyHomeContact />
+        <LazyLinksFooter />
     </div>
 </template>
