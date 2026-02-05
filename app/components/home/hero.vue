@@ -1,5 +1,5 @@
 <template>
-    <div class="lg:h-[150svh] h-[80svh]">
+    <div class="lg:h-[150svh] h-[70svh]">
         <div class="text-center lg:py-[1em] lg:h-[90svh] bg-[#73a942] h-[60svh] xl:px-[12em] lg:px-[5em] px-[1em]">
             <h1 class="font-[sansita] lg:text-[40pt] text-[25pt]">Rooted in <span class="text-[#004b23]">Experience</span>. <br />
                 Driven by Sustainability.</h1>
