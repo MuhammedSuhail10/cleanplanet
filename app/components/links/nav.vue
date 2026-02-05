@@ -1,15 +1,16 @@
 <template>
-    <div class="xl:px-[12em] lg:px-[5em] px-[1em] h-[10svh] sticky z-50  flex justify-between items-center"
-        :class="isScrolled ? 'bg-[#F8F8F8] top-0 shadow-sm transition-colors duration-300' : 'top-2'">
+    <div class="xl:px-[15em] lg:px-[5em] px-[1em] lg:h-[10svh] py-[0.5em] sticky z-50 flex justify-between items-center"
+        :class="isScrolled ? 'bg-[#F8F8F8] top-0 shadow-lg transition-colors duration-300' : 'md:py-[3em] bg-[#73a942]'">
         <NuxtLink to="/" class="flex items-center hover:text-[#004b23]">
-            <img src="~/assets/images/icon.png" alt="" :width="isScrolled ? 80 : 120">
-            <div :class='isScrolled ? "transition-text duration-300 px-[0.5em]" : "hidden"'>
-                <p class="text-[12pt]">Clean Planet Eco Solution</p>
-                <p class="text-[12pt]">Private Ltd</p>
+            <img src="~/assets/images/icon.png" alt="" :width="isScrolled ? 80 : 120" class="transition-all duration-300">
+            <div :class='isScrolled ? "transition-opacity duration-300 px-[0.5em] opacity-100" : "opacity-0 w-0 overflow-hidden"'>
+                <p class="text-[12pt] whitespace-nowrap">Clean Planet Eco Solution</p>
+                <p class="text-[12pt] whitespace-nowrap">Private Ltd</p>
             </div>
         </NuxtLink>
         <div class="lg:hidden flex items-center">
-            <button class="hover:fill-[#004b23]" :class="isScrolled ? 'text-[#000]' : 'text-[#f8f8f8]'"
+            <button class="hover:fill-[#004b23] transition-colors duration-300" 
+                :class="isScrolled ? 'text-[#000]' : 'text-[#f8f8f8]'"
                 @click="isMenuOpen = true" aria-label="Open menu">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" height="40px" width="40px"
                     fill="currentcolor">
@@ -18,13 +19,12 @@
             </button>
         </div>
         <div class="hidden lg:block">
-            <nav class="hidden lg:flex gap-10 text-[13pt] "
-                :class="isScrolled ? 'text-black/60 ' : 'text-white/60'">
-                <NuxtLink class="hover:text-[#004b23] " active-class="text-[#004b23] font-semibold" exact
+            <nav class="hidden lg:flex gap-10 text-[13pt] text-black">
+                <NuxtLink class="hover:text-[#004b23]" active-class="text-[#004b23] font-semibold" exact
                     to="/about">About</NuxtLink>
-                <NuxtLink class="hover:text-[#004b23] " active-class="text-[#004b23] font-semibold" exact
+                <NuxtLink class="hover:text-[#004b23]" active-class="text-[#004b23] font-semibold" exact
                     to="/projects">Services</NuxtLink>
-                <NuxtLink class="hover:text-[#004b23] " active-class="text-[#004b23] font-semibold" exact
+                <NuxtLink class="hover:text-[#004b23]" active-class="text-[#004b23] font-semibold" exact
                     to="/contact">Contact</NuxtLink>
             </nav>
         </div>
@@ -40,18 +40,26 @@
 import { ref, onMounted, onUnmounted, watch } from 'vue'
 
 const isScrolled = ref(false)
+let ticking = false
 
 const handleScroll = () => {
-    isScrolled.value = window.scrollY > 50
+    if (!ticking) {
+        window.requestAnimationFrame(() => {
+            isScrolled.value = window.scrollY > 50
+            ticking = false
+        })
+        ticking = true
+    }
 }
 
 onMounted(() => {
-    window.addEventListener('scroll', handleScroll)
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    // Set initial state
+    handleScroll()
 })
 
 onUnmounted(() => {
     window.removeEventListener('scroll', handleScroll)
-    // Cleanup: ensure scroll is restored
     document.body.style.overflow = ''
 })
 
