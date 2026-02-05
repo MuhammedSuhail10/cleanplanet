@@ -9,7 +9,7 @@
                 deliver high-quality plastic
                 solutions for a cleaner tomorrow.</p>
         </div>
-        <div class="lg:mt-[-30em] mt-[-3em] mb-[1em] xl:px-[15em] lg:px-[7em] px-[1em]">
+        <div class="lg:mt-[-30em] mt-[-4em] mb-[1em] xl:px-[15em] lg:px-[7em] px-[1em]">
             <img src="~/assets/images/homebanner.jpg" alt="" class="w-full object-contain shadow-sm rounded-[2em]">
         </div>
     </div>

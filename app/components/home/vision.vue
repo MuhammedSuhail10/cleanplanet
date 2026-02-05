@@ -13,7 +13,7 @@
                 <p class="lg:text-[18pt] text-[15pt]">To deliver high-quality, sustainable plastic solutions by combining 15 years of industry expertise
                     with advanced recycling and manufacturing processes, ensuring we support our industrial partners
                     while actively reducing environmental impact for a cleaner tomorrow.</p>
-                <img src="~/assets/images/mission.png" alt="" width="200" height="200" class="h-[10em] hidden md:block flex-shrink-0">
+                <img src="~/assets/images/mission.png" alt="" width="200" height="200" class="h-[12em] hidden md:block flex-shrink-0">
             </div>
         </div>
     </div>
