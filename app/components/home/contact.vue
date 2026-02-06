@@ -8,7 +8,7 @@
                 </div>
                 <button class="bg-[#F8F8F8] hover:bg-[#73a942] hover:border-1 hover:border-[#F8F8F8] px-[3em] py-[1.5em] md:rounded-[2em] rounded-[1em] text-black hover:text-white transition-colors duration-300">Let's Connect</button>
             </div>
-            <img src="~/assets/images/contactbanner.jpg" alt="" width="500" height="500" class="md:rounded-[2em] rounded-[1em] flex-shrink-0">
+            <img src="~/assets/images/home/contactbanner.jpg" alt="" width="500" height="500" class="md:rounded-[2em] rounded-[1em] flex-shrink-0">
         </div>
     </div>
 </template>
