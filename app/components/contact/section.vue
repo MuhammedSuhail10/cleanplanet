@@ -2,7 +2,7 @@
     <div class="xl:px-[15em] lg:px-[5em] px-[1em] md:py-[3em] py-[1.5em]">
         <div class="flex md:flex-row flex-col md:gap-[2em] gap-[1em]">
             <div class="md:w-[70%]">
-                <div class="bg-[#73a942]/70 md:w-[100%] rounded-[2em] p-[5em]">
+                <div class="bg-[#73a942]/70 md:w-[100%] rounded-[2em] md:p-[5em] p-[2em]">
                     <h1 class="font-[sansita] md:text-[40pt] text-[30pt]">Contact Us</h1>
                     <div class="mt-[3em]">
                         <div class="my-[1em]">
