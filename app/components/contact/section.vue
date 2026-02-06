@@ -1,7 +1,7 @@
 <template>
     <div class="xl:px-[15em] lg:px-[5em] px-[1em] md:py-[3em] py-[1.5em]">
         <div class="flex md:flex-row flex-col md:gap-[2em] gap-[1em]">
-            <div class="w-[70%]">
+            <div class="md:w-[70%]">
                 <div class="bg-[#73a942]/70 md:w-[100%] rounded-[2em] p-[5em]">
                     <h1 class="font-[sansita] text-[40pt]">Contact Us</h1>
                     <div class="mt-[3em]">
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-[30%]">
+            <div class="md:w-[30%]">
                 <img src="~/assets/images/contact/contactbanner.jpg" alt=""
                     class="w-[100%] h-full shadow-sm rounded-[2em]">
             </div>
