@@ -1,6 +1,6 @@
 <template>
-    <div class="xl:px-[15em] lg:px-[5em] px-[1em] lg:h-[10svh] py-[0.5em] sticky z-50 flex justify-between items-center"
-        :class="isScrolled ? 'bg-[#F8F8F8] top-0 shadow-lg transition-colors duration-300' : 'md:py-[3em] bg-[#73a942]'">
+    <div class="xl:px-[15em] lg:px-[5em] px-[1em] py-[0.5em] sticky z-50 flex justify-between items-center"
+        :class="isScrolled ? 'bg-[#F8F8F8] top-0 shadow-lg transition-colors duration-300' : `md:py-[3em] lg:h-[15svh] ${bg}`">
         <NuxtLink to="/" class="flex items-center hover:text-[#004b23]">
             <img src="~/assets/images/icon.png" alt="" :width="isScrolled ? 80 : 120"
                 class="transition-all duration-300">
@@ -24,7 +24,7 @@
             <nav class="hidden lg:flex gap-10 text-[13pt] text-black">
                 <NuxtLink class="hover:text-[#004b23]" active-class="text-[#004b23] font-semibold" exact to="/about">
                     About</NuxtLink>
-                <NuxtLink class="hover:text-[#004b23]" active-class="text-[#004b23] font-semibold" exact to="/projects">
+                <NuxtLink class="hover:text-[#004b23]" active-class="text-[#004b23] font-semibold" exact to="/services">
                     Services</NuxtLink>
                 <NuxtLink class="hover:text-[#004b23]" active-class="text-[#004b23] font-semibold" exact to="/contact">
                     Contact</NuxtLink>
@@ -39,6 +39,13 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted, watch } from 'vue'
+
+defineProps({
+    bg: {
+        type: String,
+        default: 'bg-transparent'
+    }
+})
 
 const isScrolled = ref(false)
 let ticking = false
@@ -55,7 +62,6 @@ const handleScroll = () => {
 
 onMounted(() => {
     window.addEventListener('scroll', handleScroll, { passive: true })
-    // Set initial state
     handleScroll()
 })
 

@@ -1,7 +1,7 @@
 <template>
     <div class="xl:px-[15em] lg:px-[5em] px-[1em] pb-[2em]">
         <p class="lg:text-[18pt] text-[15pt]">
-            Clean Planet Eco Solution is a professionally managed leader in the plastic
+            <strong>Clean Planet Eco Solution</strong> (Formerly known as <strong>Clean Planet Recycle Pvt Ltd</strong>) is a professionally managed leader in the plastic
             recycling and manufacturing sector. Established in 2022 and backed by over
             15 years of industry expertise, we bridge the gap between waste management
             and industrial utility.

@@ -1,6 +1,6 @@
 <template>
     <div class="font-[elms] ">
-        <LinksNav />
+        <LinksNav bg="bg-[#73a942]" />
         <HomeHero />
         <LazyHomeAbout />
         <LazyHomeVision />
