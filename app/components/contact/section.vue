@@ -3,7 +3,7 @@
         <div class="flex md:flex-row flex-col md:gap-[2em] gap-[1em]">
             <div class="md:w-[70%]">
                 <div class="bg-[#73a942]/70 md:w-[100%] rounded-[2em] p-[5em]">
-                    <h1 class="font-[sansita] text-[40pt]">Contact Us</h1>
+                    <h1 class="font-[sansita] md:text-[40pt] text-[30pt]">Contact Us</h1>
                     <div class="mt-[3em]">
                         <div class="my-[1em]">
                             <svg fill="#000000" width="50px" height="50px" viewBox="0 0 24 24" id="phone"
