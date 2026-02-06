@@ -1,6 +1,6 @@
 <template>
-    <div class="xl:px-[15em] lg:px-[5em] px-[1em] py-[3em]">
-        <div class="flex gap-[2em]">
+    <div class="xl:px-[15em] lg:px-[5em] px-[1em] md:py-[3em] py-[1.5em]">
+        <div class="flex md:flex-row flex-col md:gap-[2em] gap-[1em]">
             <div class="w-[70%]">
                 <div class="bg-[#73a942]/70 md:w-[100%] rounded-[2em] p-[5em]">
                     <h1 class="font-[sansita] text-[40pt]">Contact Us</h1>

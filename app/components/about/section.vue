@@ -4,7 +4,7 @@
             <h2 class="text-[25pt] font-bold my-[0.5em]">Revolutionizing the Plastic Lifecycle through Industrial
                 Excellence</h2>
             <div>
-                <div class="flex gap-[2em]">
+                <div class="flex md:flex-row flex-col md:gap-[2em] gap-[1em]">
                     <p class="text-[20pt]">Clean Planet Eco Solution stands as a premier, professionally managed
                         powerhouse at the forefront of the plastic recycling and manufacturing landscape. While our
                         corporate identity was strategically formalized in 2022, the bedrock of our organization is
@@ -31,7 +31,7 @@
                 </p>
             </div>
         </div>
-        <div class="mt-[2em]">
+        <div class="md:mt-[2em] mt-[1em]">
             <h2 class="text-[25pt] font-bold my-[0.5em]">Why We Lead: The Pillars of Our Excellence</h2>
             <p class="text-[20pt]">We don’t simply process waste; we engineer value. Our facility serves as a hub for
                 innovation, ensuring that every ton of material processed contributes to a robust circular economy. We

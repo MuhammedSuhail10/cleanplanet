@@ -14,7 +14,7 @@
                 <NuxtLink class="hover:text-[#004b23] text-[1.5em]" active-class="text-[#004b23] font-bold" exact
                     to="/about" @click="$emit('close')">About</NuxtLink>
                 <NuxtLink class="hover:text-[#004b23] text-[1.5em]" active-class="text-[#004b23] font-bold" exact
-                    to="/projects" @click="$emit('close')">Services</NuxtLink>
+                    to="/services" @click="$emit('close')">Services</NuxtLink>
                 <NuxtLink class="hover:text-[#004b23] text-[1.5em]" active-class="text-[#004b23] font-bold" exact
                     to="/contact" @click="$emit('close')">Contact</NuxtLink>
             </nav>
