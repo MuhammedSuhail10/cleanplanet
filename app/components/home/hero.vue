@@ -6,7 +6,7 @@
             <p class="lg:text-[18pt] text-[15pt]">Combining fifteen years of expertise with advanced recycling technology to
                 deliver high-quality plastic
                 solutions for a cleaner tomorrow.</p>
-            <div class="md:py-[2em] px-[3em] py-[1em]">
+            <div class="md:py-[2em] md:px-[3em] py-[1em]">
                 <img src="~/assets/images/home/homebanner.avif" alt="" class="w-[100%] object-contain shadow-sm rounded-[2em]">
             </div>
         </div>
