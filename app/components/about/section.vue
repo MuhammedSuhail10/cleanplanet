@@ -5,7 +5,7 @@
                 Excellence</h2>
             <div>
                 <div class="flex md:flex-row flex-col md:gap-[2em] gap-[1em]">
-                    <p class="text-[20pt]">Clean Planet Eco Solution stands as a premier, professionally managed
+                    <p class="text-[20pt]"><strong>Clean Planet Eco Solution</strong> (Formerly known as <strong>Clean Planet Recycle</strong>) stands as a premier, professionally managed
                         powerhouse at the forefront of the plastic recycling and manufacturing landscape. While our
                         corporate identity was strategically formalized in 2022, the bedrock of our organization is
                         built upon over 15 years of deep-rooted industry expertise and technical mastery. This extensive
