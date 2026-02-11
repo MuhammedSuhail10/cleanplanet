@@ -27,8 +27,8 @@ const currentYear = now.getFullYear();
                 </div>
             </div>
             <div>
-                <h5 class="font-[sansita] text-[#004b23] text-[20pt] text-center">Contact Us</h5>
-                <div class="flex flex-col gap-[0.5em] my-[1em] text-[15pt]">
+                <h5 class="font-[sansita] text-[#004b23] text-[20pt] text-center md:text-start">Contact Us</h5>
+                <div class="flex flex-col gap-[0.5em] justify-center my-[1em] text-[15pt]">
                     <div class="flex gap-[0.5em] items-start">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none">
                             <path
