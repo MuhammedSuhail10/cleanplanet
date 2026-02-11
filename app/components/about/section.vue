@@ -14,7 +14,7 @@
                         supply chain, serving as the vital bridge between large-scale environmental waste management and
                         high-performance industrial utility.
                     </p>
-                    <img src="~/assets/images/about/aboutbanner.jpg" alt=""
+                    <img src="~/assets/images/about/aboutbanner.avif" alt=""
                         class="w-[100%] h-full shadow-sm rounded-[2em]">
                 </div>
                 <p class="text-[20pt] my-[1em]">Our operations are strategically designed to handle the entire

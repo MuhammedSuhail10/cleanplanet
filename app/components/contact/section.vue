@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="md:w-[30%]">
-                <img src="~/assets/images/contact/contactbanner.jpg" alt=""
+                <img src="~/assets/images/contact/contactbanner.avif" alt=""
                     class="w-[100%] h-full shadow-sm rounded-[2em]">
             </div>
         </div>

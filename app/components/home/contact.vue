@@ -6,9 +6,9 @@
                     <p class="lg:text-[25pt] text-[22pt] font-semibold">Looking for plastic recycling, baling, or plastic manufacturing solutions?</p>
                     <p class="lg:text-[18pt] text-[15pt]">Contact Us Now!</p>
                 </div>
-                <button class="bg-[#F8F8F8] hover:bg-[#73a942] hover:border-1 hover:border-[#F8F8F8] px-[3em] py-[1.5em] md:rounded-[2em] rounded-[1em] text-black hover:text-white transition-colors duration-300">Let's Connect</button>
+                <NuxtLink to="/contact" class="bg-[#F8F8F8] hover:bg-[#73a942] hover:border-1 hover:border-[#F8F8F8] text-center px-[3em] py-[1.5em] md:rounded-[3em] rounded-[1em] text-black hover:text-white transition-colors duration-300">Let's Connect</NuxtLink>
             </div>
-            <img src="~/assets/images/home/contactbanner.jpg" alt="" width="500" height="500" class="md:rounded-[2em] rounded-[1em] flex-shrink-0">
+            <img src="~/assets/images/home/contactbanner.avif" alt="" width="500" height="500" class="md:rounded-[2em] rounded-[1em] flex-shrink-0">
         </div>
     </div>
 </template>

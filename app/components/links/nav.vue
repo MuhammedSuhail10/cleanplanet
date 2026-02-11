@@ -2,7 +2,7 @@
     <div class="xl:px-[15em] lg:px-[5em] px-[1em] py-[0.5em] sticky z-50 flex justify-between items-center"
         :class="isScrolled ? 'bg-[#F8F8F8] top-0 shadow-lg transition-colors duration-300' : `md:py-[3em] lg:h-[15svh] ${bg}`">
         <NuxtLink to="/" class="flex items-center hover:text-[#004b23]">
-            <img src="~/assets/images/icon.png" alt="" :width="isScrolled ? 80 : 120"
+            <img src="~/assets/images/icon.avif" alt="" :width="isScrolled ? 80 : 120"
                 class="transition-all duration-300">
             <div
                 :class='isScrolled ? "transition-opacity duration-300 px-[0.5em] opacity-100 hidden md:block" : "opacity-0 w-0 overflow-hidden"'>
