@@ -1,7 +1,7 @@
 <template>
     <div class="font-[elms] ">
         <LinksNav />
-        <!-- <LazyContactHeader /> -->
+        <LazyContactHeader />
         <LazyContactSection />
         <LazyLinksFooter />
     </div>
